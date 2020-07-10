@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <shape android:tint="@android:color/car_card_dark" android:shape="rectangle">
+            <size android:height="3.0dip" />
+            <solid android:color="#ffffffff" />
+            <corners android:radius="@null" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <size android:height="3.0dip" />
+                <gradient android:startColor="@android:color/accessibility_focus_highlight" android:endColor="@android:color/accent_material_light" />
+                <corners android:radius="@null" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:fillBefore="true" android:fillAfter="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set>
+        <objectAnimator android:interpolator="@android:interpolator/decelerate_quint" android:duration="0" />
+        <objectAnimator android:interpolator="@android:interpolator/decelerate_quint" android:duration="0" />
+    </set>
+    <set>
+        <objectAnimator android:interpolator="@android:interpolator/decelerate_quint" android:duration="400" />
+        <objectAnimator android:interpolator="@android:interpolator/decelerate_quint" android:duration="400" />
+    </set>
+</set>

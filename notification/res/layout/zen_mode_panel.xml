@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.ZenModePanel android:id="@null" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@null" android:background="@android:color/transparent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.volume.SegmentedButtons android:id="@null" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        <RelativeLayout android:theme="@android:style/Widget.DeviceDefault.GestureOverlayView" android:id="@null" android:background="@null" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@null" android:background="@null" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@null" android:scaleType="center" />
+            <TextView android:textAppearance="@null" android:id="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingMultiplier="1.20029" />
+            <TextView android:textAppearance="@null" android:id="@null" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:layout_below="@null" style="@null" />
+            <View android:layout_width="0.0dip" android:layout_height="16.0dip" android:layout_below="@null" />
+        </RelativeLayout>
+        <com.android.settingslib.notification.ZenRadioLayout android:orientation="horizontal" android:id="@null" android:paddingBottom="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <RadioGroup android:id="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.android.settingslib.notification.ZenRadioLayout>
+        <TextView android:textAppearance="@null" android:id="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.20029" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@android:id/icon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:tint="?android:colorForeground" />
+        <TextView android:textAppearance="@null" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@null" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip">
+        <TextView android:textAppearance="@null" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.android.systemui.volume.ZenModePanel>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.whatsapp.Arkadia.GradientChatbubble.CustomROMAOSP" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <overlay android:targetPackage="com.whatsapp"/>
+    <application allowBackup="false" android:hasCode="false" android:label="com.whatsapp.Arkadia.GradientChatbubble.CustomROMAOSP">
+        <meta-data android:name="Substratum_Parent" android:value="arkadia.substratum.theme"/>
+        <meta-data android:name="Substratum_Type4" android:value=""/>
+        <meta-data android:name="Substratum_Type3" android:value="CustomROM_AOSP"/>
+        <meta-data android:name="Substratum_Type2" android:value="Gradient_Chat_bubble"/>
+        <meta-data android:name="Substratum_Target" android:value="com.whatsapp"/>
+        <meta-data android:name="Substratum_Version" android:value="1022"/>
+        <meta-data android:name="Substratum_OverlayVersion" android:value="0"/>
+        <meta-data android:name="Substratum_Device" android:value="d39c4ed9a8ede74a"/>
+        <meta-data android:name="Substratum_Type1b" android:value=""/>
+        <meta-data android:name="Substratum_Type1c" android:value=""/>
+        <meta-data android:name="Substratum_Type1a" android:value=""/>
+    </application>
+</manifest>

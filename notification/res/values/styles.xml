@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.Expanded" parent="@android:style/TextAppearance.Widget.Toolbar.Title">
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.WeatherLocation" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+    </style>
+    <style name="TextAppearance.QS.DetailHeader" parent="">
+        <item name="android:textSize">17.5sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Volume" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Volume.ZenDetail" parent="">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Radio" parent="">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Header" parent="">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Button" parent="">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/accent_material_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextAppearance.MediaQueue" parent="">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.MediaQueue.Subtitle" parent="">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="systemui_theme_remote_input" parent="@android:style/Theme.Material">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Weather" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/accent_material_light</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Weather.Detailed" parent="@style/TextAppearance.StatusBar.Expanded.Weather">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/accent_material_light</item>
+    </style>
+    <style name="TextAppearance.Volume.Header" parent="@style/TextAppearance.Volume">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@android:color/accent_material_light</item>
+    </style>
+    <style name="QSIconTheme">
+        <item name="backgroundColor">#4dffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="">
+        <item name="android:textSize">@null</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Clock" parent="">
+        <item name="android:textSize">@null</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.QS.DetailEmpty" parent="">
+        <item name="android:textSize">@null</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.QS" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="qs_theme">
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="edit_theme">
+        <item name="android:colorBackground">@android:color/holo_purple</item>
+    </style>
+    <style name="qs_base" parent="@android:style/Theme.Dialog.Alert" />
+    <style name="DualToneLightTheme" />
+    <style name="DualToneDarkTheme" />
+</resources>

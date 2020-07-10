@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="88.0dip" android:width="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:name="background_5_path" />
+        <path android:name="background_7_path" />
+        <path android:name="background_6_path" />
+        <path android:name="background_2_path" />
+        <path android:name="background_1_path" />
+    </group>
+</vector>

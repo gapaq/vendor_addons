@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_text_size">12.0sp</dimen>
+    <dimen name="notification_subtext_size">11.0sp</dimen>
+    <dimen name="notification_title_text_size">18.0sp</dimen>
+    <dimen name="toast_y_offset">25.0dip</dimen>
+    <dimen name="notification_badge_size">18.0dip</dimen>
+    <dimen name="control_corner_material">5.0dip</dimen>
+    <dimen name="config_dialogCornerRadius">8.0dip</dimen>
+    <dimen name="config_buttonCornerRadius">8.0dip</dimen>
+    <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
+</resources>

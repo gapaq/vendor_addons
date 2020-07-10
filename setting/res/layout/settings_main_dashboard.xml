@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/com.android.settings">
+    <FrameLayout android:id="@null" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView android:id="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@null" app:cardBackgroundColor="@android:color/holo_purple" app:cardCornerRadius="@null" app:cardElevation="2.0dip">
+            <Toolbar android:theme="?android:actionBarTheme" android:id="@null" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@null">
+                <TextView android:id="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" style="@null" />
+            </Toolbar>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+    <FrameLayout android:id="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
